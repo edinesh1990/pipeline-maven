@@ -1,5 +1,10 @@
 pipeline{
     agent any
+    
+    environments{
+      PASS=$registrypass
+
+    }
     stages{
         stage('Build'){
             steps{

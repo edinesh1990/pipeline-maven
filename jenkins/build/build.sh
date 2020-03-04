@@ -3,7 +3,7 @@
 #Copy the new jar file to the build location
 
 WORKSPACE=/home/centos/jenkins-data/pipeline
-cp -f $WORKSPACE/java-app/target/*.jar jenkins/build/
+cp -f /app/target/*.jar jenkins/build/
 
 echo "*****************************************"
 echo "***********Building Docker image*********"
